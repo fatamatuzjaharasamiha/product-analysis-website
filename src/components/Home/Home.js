@@ -1,6 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
+import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
     return (
         <div>
             <div className='d-flex align-items-center m-5 p-5 bg-body rounded'>
@@ -15,8 +20,15 @@ const Home = () => {
             </div>
             <div className='mt-5'>
                 <h2 className='fw-bold'>Customer Reviews(3)</h2>
+                <div className='d-flex gap-2 m-4'>
+                {
+                    reviews.slice(0,3).map(review => <Review
+                        key={review.id}
+                        review={review}></Review>)
+                }
 
-                <button type="button" class="btn btn-dark">See All Reviews</button>
+                </div>
+                <Link className='p-5' to='/reviews'><button type="button" className="btn btn-dark w-25">See All Reviews</button></Link>
             </div>
         </div>
     );
