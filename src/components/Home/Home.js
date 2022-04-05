@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-5'>
-                <h2 className='fw-bold'>Customer Reviews(3)</h2>
+                <h2 className='fw-bold'>Customer Reviews</h2>
                 <div className='d-flex gap-2 m-4'>
                 {
                     reviews.slice(0,3).map(review => <Review

@@ -15,7 +15,7 @@ const Review = (props) => {
                 <Card.Body>
                     <Card.Title>Name : {name}</Card.Title>
                     <Card.Text>
-                        <p className=''>Review : {review.slice(0,150)}</p>
+                        <p className=''>Review : {review.slice(0,150)}...</p>
                         <h5>Rating : <span className='text-info'>{rating}</span></h5>
                     </Card.Text>
                     

@@ -3,7 +3,18 @@
 # Project Name : react-router-assignment
 ##  Livesite Link : [Watch Review Analysis website](https://dulcet-lokum-0853d9.netlify.app/ "livesite")
 
--
+### Project Details
+* At first  create private repository and create react app to make simple application
+
+* Create all component and hooks in src folder 
+
+* Maintain folder structure
+
+* its a simple product review application.
+
+* In home page,I present my product Smart watch with some review.When we click 'see all reviews' button,we can go reviews page and see all review information.In Dashboard,there are some chart about sell,investment and review.After that,blogs page contain two question with answer.
+
+*if anyone trying to reach a website that can not found,than it shows 404 error.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
