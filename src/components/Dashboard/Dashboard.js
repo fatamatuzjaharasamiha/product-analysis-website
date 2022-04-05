@@ -41,7 +41,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='row container p-3 g-3'>
+        <div className='row container p-3 g-3 mx-auto'>
             <div className='col-lg-6 col-sm-12'>
                 <h6 className='text-info mt-3 fw-bold'>MONTH WISE SELL</h6>
                 <LineChart width={500} height={250} data={data}>

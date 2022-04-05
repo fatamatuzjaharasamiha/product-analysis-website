@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 # Project Name : Smart Watch Pro
-##  Livesite Link : [Watch Review Analysis website](https://dulcet-lokum-0853d9.netlify.app/ "livesite")
+##  Livesite Link : [Smart Watch Pro](https://dulcet-lokum-0853d9.netlify.app/ "livesite")
 
 ### Project Details
 * At first  create private repository and create react app to make simple application

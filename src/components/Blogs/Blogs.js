@@ -4,7 +4,7 @@ import { Accordion } from 'react-bootstrap';
 
 const Blogs = () => {
   return (
-    <div className='w-75 m-5 shadow-lg p-5 bg-body rounded'>
+    <div className='w-75 mx-auto mt-5 shadow-lg p-5 bg-body rounded'>
       <Accordion> <h1 className='pb-4'>Question and Answer</h1>
         <Accordion.Item eventKey="0">
           <Accordion.Header> <span className='fs-5 fw-bold'>Question : What is a purpose of CONTEXT API ?</span>
