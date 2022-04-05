@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Project Name : react-router-assignment
+# Project Name : Smart Watch Pro
 ##  Livesite Link : [Watch Review Analysis website](https://dulcet-lokum-0853d9.netlify.app/ "livesite")
 
 ### Project Details
